@@ -1,0 +1,13 @@
+<script type="text/javascript" src="catalog/view/javascript/js-image-zoom.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    var options = {
+      width: 400,
+      zoomWidth: 500,
+      img: "http://opencartzoom/image/cache/catalog/demo/apple_cinema_30-500x500.jpg",
+      offset: {vertical: 0, horizontal: 10}
+    };
+    ImageZoom(document.getElementById("thumbnail"), options);
+  })
+</script>
